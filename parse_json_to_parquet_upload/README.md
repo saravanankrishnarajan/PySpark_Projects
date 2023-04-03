@@ -17,7 +17,7 @@ TGT_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/raw/ghactivity
 TGT_FILE_FORMAT=parquet
 
 
-###How to call:
+### How to call:
 
 The following command starts the spark job in cluster mode and pass the environment variables 
 
