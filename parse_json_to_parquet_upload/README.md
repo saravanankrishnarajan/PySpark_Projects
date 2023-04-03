@@ -9,7 +9,7 @@ util.py - Creates spark session
 write.py - Writes the data as parquet file in the output dir
 
 ## Environment variables:
-ENVIRON=DEV \n
+ENVIRON=DEV </br>
 SRC_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/landing/ghactivity \n
 SRC_FILE_PATTERN=2021-01-1 \n
 SRC_FILE_FORMAT=json \n
