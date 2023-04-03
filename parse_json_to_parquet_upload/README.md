@@ -10,11 +10,11 @@ write.py - Writes the data as parquet file in the output dir
 
 ## Environment variables:
 ENVIRON=DEV </br>
-SRC_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/landing/ghactivity \n
-SRC_FILE_PATTERN=2021-01-1 \n
-SRC_FILE_FORMAT=json \n
-TGT_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/raw/ghactivity \n
-TGT_FILE_FORMAT=parquet \n
+SRC_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/landing/ghactivity </br>
+SRC_FILE_PATTERN=2021-01-1 </br>
+SRC_FILE_FORMAT=json </br>
+TGT_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/raw/ghactivity </br>
+TGT_FILE_FORMAT=parquet </br>
 
 ### How to call:
 
