@@ -1,7 +1,7 @@
 ## Pyspark project to parse json files into Parquet
 
 Files:
-.env - File contains environment variables.
+.env - File contains environment variables. 
 app.py - Trigger the main()
 process.py - Adds new columns year, month, date from created at column
 read.py - SparkSession reads the data file using datadir, file pattern(json) and file format name of the file
@@ -9,13 +9,12 @@ util.py - Creates spark session
 write.py - Writes the data as parquet file in the output dir
 
 ## Environment variables:
-ENVIRON=DEV
-SRC_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/landing/ghactivity
-SRC_FILE_PATTERN=2021-01-1
-SRC_FILE_FORMAT=json
-TGT_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/raw/ghactivity
-TGT_FILE_FORMAT=parquet
-
+ENVIRON=DEV \n
+SRC_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/landing/ghactivity \n
+SRC_FILE_PATTERN=2021-01-1 \n
+SRC_FILE_FORMAT=json \n
+TGT_DIR=/home/saravanan/Projects/DE_on_aws/activity/data/github/raw/ghactivity \n
+TGT_FILE_FORMAT=parquet \n
 
 ### How to call:
 
